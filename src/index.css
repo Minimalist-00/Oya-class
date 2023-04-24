@@ -1,0 +1,641 @@
+/* 背景色 */
+html {
+  background-color: #FFFBF5;
+}
+
+.main-bg-color {
+  background-color: #FFFBF5;
+}
+
+header {
+  background-color: #4B6587;
+}
+
+code {
+  font-family: 'Noto Sans JP', 'M PLUS 1p', sans-serif;
+}
+
+body {
+  font-family: 'Noto Sans JP', 'M PLUS 1p', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body div {
+  font-family: 'Noto Sans JP', 'M PLUS 1p', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body p {
+  font-family: 'Noto Sans JP', 'M PLUS 1p', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body a {
+  font-family: 'Noto Sans JP', 'M PLUS 1p', sans-serif;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: #000;
+}
+
+body h1,
+h2,
+h3 {
+  font-family: 'Noto Sans JP', 'M PLUS 1p', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body ul,
+li {
+  font-family: 'Noto Sans JP', 'M PLUS 1p', sans-serif;
+  list-style: none;
+}
+
+footer {
+  font-family: 'Noto Sans JP', 'M PLUS 1p', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+br {
+  padding: 0;
+  margin: 0;
+
+}
+
+/* ------------------------------------------------------------- */
+
+/* ヘッダー */
+
+.header {
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 50px;
+  position: sticky;
+  z-index: 1;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: inherit;
+}
+
+.setIcon {
+  margin-right: 20px;
+
+}
+
+.userIcon {
+  margin-right: 40px;
+}
+
+.logo {
+  font-size: 25px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.logo:hover {
+  color: #FFF;
+}
+
+/* ハンバーガーメニュー */
+
+/*  バーガーボタンの位置とサイズ */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 10px;
+  top: 11px;
+}
+
+/* バーガーアイコンバーの色・形 */
+.burger-bars-color {
+  color: white;
+}
+
+
+/* クロスボタンの位置とサイズ */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* クロスボタンの色・形 */
+.bm-cross {
+  background: #4B6587;
+}
+
+
+/* サイドバーラッパースタイル */
+/* 注意: この要素を変更すると、アニメーションが壊れることがあるので注意してください - ほとんどの場合、触る必要はありません。 */
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* 一般的なサイドバーのスタイル */
+.bm-menu {
+  background: white;
+  padding: 1.5em 0 0 1em;
+}
+
+/* アイテムリストのラッパー */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* 個別項目 */
+.bm-item {
+  display: inline-block;
+  text-decoration: none;
+  outline: none;
+}
+
+.menu-item {
+  padding-bottom: 0.2em;
+}
+
+/* オーバーレイのスタイリング */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* ------- ログイン前のトップページ ------- */
+
+.frame-border {
+  margin: 5px 3%;
+  padding: 5%;
+  height: 100%;
+}
+
+.frame-border h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.frame-border h2 {
+  font-size: 24px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* ログイン画面のボタン */
+.button01 {
+  padding-bottom: 70px;
+}
+
+.button01 a {
+  color: #EEE;
+  background: #30516a;
+  border-radius: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 270px;
+  padding: 10px 10px 10px 40px;
+  transition: 0.3s ease-in-out;
+  font-weight: 500;
+  border: 1.5px solid;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button01 a:hover {
+  color: #EEE;
+  background: #30516a;
+  border: 1px solid;
+}
+
+.button01 p {
+  color: #EEE;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* ------- Home ------- */
+
+.top-box {
+  margin-left: 10px;
+  font-size: 17px;
+}
+
+/* お知らせ関係 */
+.title {
+  font-weight: 600;
+  font-size: 20px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+}
+
+.dli-chevron-right {
+  display: inline-block;
+  vertical-align: middle;
+  color: #333;
+  line-height: 1;
+  width: 0.5em;
+  height: 0.5em;
+  border: 0.1em solid currentColor;
+  border-left: 0;
+  border-bottom: 0;
+  box-sizing: border-box;
+  transform: translateX(-25%) rotate(45deg);
+}
+
+.right-allow {
+  text-align: right;
+}
+
+.home-notice-data {
+  font-weight: 500;
+  font-size: 15px;
+  color: #444444B5;
+}
+
+.home-notice-title {
+  font-weight: 500;
+  font-size: 15px;
+  color: #000;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.home-notice-title:hover {
+  text-decoration: underline;
+}
+
+.hnt-box {
+  width: 95%;
+}
+
+/* もっと見るボタン */
+.see-more a {
+  color: #FFFBF5;
+  background-color: #4B6587;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  width: 160px;
+  max-width: 280px;
+  padding: 10px 15px 10px 0;
+  height: 40px;
+  transition: 0.3s ease-in-out;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.see-more a:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  right: 1.5rem;
+  font-size: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: right 0.3s;
+  width: 6px;
+  height: 6px;
+  border-top: solid 2px currentColor;
+  border-right: solid 2px currentColor;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.see-more a:hover {
+  color: #FFFBF5;
+}
+
+.see-more a:hover:after {
+  right: 0.9rem;
+}
+
+.notice-post-botton a {
+  color: #FFFBF5;
+  background-color: #4B6587;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-left: 5px;
+  align-items: center;
+  margin: 0 auto;
+  width: 180px;
+  max-width: 280px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.notice-post-botton a:hover {
+  color: #FFFBF5;
+}
+
+/* ------------------お知らせ詳細---------------- */
+.notice-title {
+  font-size: 23px;
+  font-weight: bold;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  /* 行間を指定 */
+  line-height: 1.3;
+}
+
+.notice-detail {
+  /* 文頭の字下げ */
+  text-indent: 1em;
+  font-size: 15px;
+  line-height: 1.5;
+  padding-bottom: 2rem;
+}
+
+.notice-url {
+  text-indent: 1em;
+  font-size: 15px;
+  word-break: break-all;
+  color: #00e;
+}
+
+.notice-url:hover {
+  text-decoration: underline;
+}
+
+
+/* ------------- Albumページ ------------- */
+.album {
+  text-align: center;
+  line-height: 1.3;
+}
+
+.album-top-img {
+  cursor: not-allowed;
+}
+
+
+
+/* ----------------- PAGE TOP ----------------- */
+
+#page-top a {
+  background: #C8C6C6;
+  color: #000;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.9rem;
+  transition: all 0.5s;
+}
+
+#page-top a:hover {
+  /* background: #666; */
+  cursor: pointer;
+}
+
+
+.footer {
+  color: #808080;
+  padding: 30px 30px 0 30px;
+}
+
+.footer a {
+  font-weight: 500;
+  color: #808080;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.footer p {
+  text-align: center;
+}
+
+.footer .menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer .menu li {
+  width: 100%;
+  padding: 0 20px 0 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+.footer .menu li:first-child {
+  padding-left: 0;
+  border: none;
+}
+
+.footer .copyright {
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+
+/* ------------ ユーザー情報、設定ページ共通 ------------- */
+.info h4 {
+  padding-bottom: 0.3rem;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #444;
+}
+
+.info p {
+  padding-bottom: 1.5em
+}
+
+.info label {
+  font-size: 15px;
+}
+
+/* ----------------- 設定ページ ----------------- */
+
+.radio-block {
+  position: relative;
+  display: block;
+  margin: 0.7em 0;
+  padding-left: 28px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.radio-block label {
+  font-size: 16px;
+  display: block;
+  margin: 3px 15px;
+}
+
+/* inputは非表示にする */
+.radio-block input {
+  display: none;
+}
+
+/* 常に表示する枠線の円 */
+.radio-mark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 22px;
+  width: 22px;
+  border: solid 1.5px #CCC;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+/* 選択時に重ねる円 */
+.radio-mark:after {
+  content: "";
+  position: absolute;
+  background: #4B6587;
+  border-radius: 50%;
+  top: 2px;
+  bottom: 2px;
+  left: 2px;
+  right: 2px;
+  opacity: 0;
+}
+
+/* 選択時に重ねた円の透明を解除 */
+.radio-block input:checked+.radio-mark:after {
+  opacity: 1;
+}
+
+
+/* ------------------------- その他 --------------------------- */
+.preparation-icon {
+  margin-top: 80px;
+}
+
+.complete-icon {
+  margin-top: 80px;
+}
+
+/* ------------------------- プロジェクト案 --------------------------- */
+
+
+.design-proposal h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #4B6587;
+}
+
+.highlighter{
+	/* background:linear-gradient(transparent 70%, rgb(151, 234, 255) 60%); */
+}
+
+.go-back-top{
+  /* text-decoration: underline; */
+  background:linear-gradient(transparent 70%, rgb(151, 234, 255) 60%);
+}
+
+.go-back-top:hover{
+  color: #000;
+  background:linear-gradient(transparent 70%, rgb(163, 187, 255) 60%);
+}
+
+
+.loding{
+  background-color: #FFFBF5;
+}
+
+
+
+
+.post-date{
+  height: 2.3em;
+  width: 8em;
+  padding: 0 6px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 0 0 0.5px #111 inset;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.post-date:focus {
+  outline: 0;
+  box-shadow: 0 0 0 1.5px #4B6587 inset;
+}
+
+.post-form {
+  height: 2.4em;
+  width: 100%;
+  padding: 0 10px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 0 0 0.5px #111 inset;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.post-form:focus {
+  outline: 0;
+  box-shadow: 0 0 0 1.5px #4B6587 inset;
+}
+
+.post-textarea {
+  display: block;
+  width: 100%;
+  height: 130px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 0 0 0.5px #111 inset;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  resize: vertical;
+}
+
+.post-textarea:focus {
+  outline: 0;
+  box-shadow: 0 0 0 1.5px #4B6587 inset;
+}
+
+.post-button {
+  margin: 0 auto;
+  width: 45%;
+  padding: 7px 8px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4B6587;
+  color: #fff;
+  font-weight: bold;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;  
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.post-button:hover {
+  background-color: #254e80;
+}
