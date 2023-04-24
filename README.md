@@ -1,7 +1,6 @@
 <p align="center">
 <img height="600px" alt="$R0YVH7W" src="https://user-images.githubusercontent.com/58283244/233970630-5468fe5b-7c6e-4482-b406-73feab7f5345.jpg">
 <img height="600px" alt="$R0YVH7W" src="https://user-images.githubusercontent.com/58283244/233966327-6a44fe3c-6f14-45f3-9374-f99f3e7b15eb.png">
-<img height="600px" alt="$R0YVH7W" src="https://user-images.githubusercontent.com/58283244/233970642-4f83c41c-1698-4099-ad54-8d8d9b1bcd79.jpg">
 </p>
 
 
