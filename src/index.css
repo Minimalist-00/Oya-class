@@ -1,22 +1,22 @@
 /* 背景色 */
 html {
-  background-color: #FFFBF5;
+  background-color: #fffbf5;
 }
 
 .main-bg-color {
-  background-color: #FFFBF5;
+  background-color: #fffbf5;
 }
 
 header {
-  background-color: #4B6587;
+  background-color: #4b6587;
 }
 
 code {
-  font-family: 'Noto Sans JP', 'M PLUS 1p', sans-serif;
+  font-family: "Noto Sans JP", "M PLUS 1p", sans-serif;
 }
 
 body {
-  font-family: 'Noto Sans JP', 'M PLUS 1p', sans-serif;
+  font-family: "Noto Sans JP", "M PLUS 1p", sans-serif;
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
@@ -24,19 +24,19 @@ body {
 }
 
 body div {
-  font-family: 'Noto Sans JP', 'M PLUS 1p', sans-serif;
+  font-family: "Noto Sans JP", "M PLUS 1p", sans-serif;
   padding: 0;
   margin: 0;
 }
 
 body p {
-  font-family: 'Noto Sans JP', 'M PLUS 1p', sans-serif;
+  font-family: "Noto Sans JP", "M PLUS 1p", sans-serif;
   padding: 0;
   margin: 0;
 }
 
 body a {
-  font-family: 'Noto Sans JP', 'M PLUS 1p', sans-serif;
+  font-family: "Noto Sans JP", "M PLUS 1p", sans-serif;
   padding: 0;
   margin: 0;
   text-decoration: none;
@@ -46,19 +46,19 @@ body a {
 body h1,
 h2,
 h3 {
-  font-family: 'Noto Sans JP', 'M PLUS 1p', sans-serif;
+  font-family: "Noto Sans JP", "M PLUS 1p", sans-serif;
   padding: 0;
   margin: 0;
 }
 
 body ul,
 li {
-  font-family: 'Noto Sans JP', 'M PLUS 1p', sans-serif;
+  font-family: "Noto Sans JP", "M PLUS 1p", sans-serif;
   list-style: none;
 }
 
 footer {
-  font-family: 'Noto Sans JP', 'M PLUS 1p', sans-serif;
+  font-family: "Noto Sans JP", "M PLUS 1p", sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -66,7 +66,6 @@ footer {
 br {
   padding: 0;
   margin: 0;
-
 }
 
 /* ------------------------------------------------------------- */
@@ -92,7 +91,6 @@ br {
 
 .setIcon {
   margin-right: 20px;
-
 }
 
 .userIcon {
@@ -101,12 +99,12 @@ br {
 
 .logo {
   font-size: 25px;
-  color: #FFF;
+  color: #fff;
   text-decoration: none;
 }
 
 .logo:hover {
-  color: #FFF;
+  color: #fff;
 }
 
 /* ハンバーガーメニュー */
@@ -125,7 +123,6 @@ br {
   color: white;
 }
 
-
 /* クロスボタンの位置とサイズ */
 .bm-cross-button {
   height: 24px;
@@ -134,9 +131,8 @@ br {
 
 /* クロスボタンの色・形 */
 .bm-cross {
-  background: #4B6587;
+  background: #4b6587;
 }
-
 
 /* サイドバーラッパースタイル */
 /* 注意: この要素を変更すると、アニメーションが壊れることがあるので注意してください - ほとんどの場合、触る必要はありません。 */
@@ -199,7 +195,7 @@ br {
 }
 
 .button01 a {
-  color: #EEE;
+  color: #eee;
   background: #30516a;
   border-radius: 50px;
   position: relative;
@@ -216,13 +212,13 @@ br {
 }
 
 .button01 a:hover {
-  color: #EEE;
+  color: #eee;
   background: #30516a;
   border: 1px solid;
 }
 
 .button01 p {
-  color: #EEE;
+  color: #eee;
   text-align: center;
   text-decoration: none;
 }
@@ -263,7 +259,7 @@ br {
 .home-notice-data {
   font-weight: 500;
   font-size: 15px;
-  color: #444444B5;
+  color: #444444b5;
 }
 
 .home-notice-title {
@@ -285,8 +281,8 @@ br {
 
 /* もっと見るボタン */
 .see-more a {
-  color: #FFFBF5;
-  background-color: #4B6587;
+  color: #fffbf5;
+  background-color: #4b6587;
   border-radius: 5px;
   position: relative;
   display: flex;
@@ -321,7 +317,7 @@ br {
 }
 
 .see-more a:hover {
-  color: #FFFBF5;
+  color: #fffbf5;
 }
 
 .see-more a:hover:after {
@@ -329,8 +325,8 @@ br {
 }
 
 .notice-post-botton a {
-  color: #FFFBF5;
-  background-color: #4B6587;
+  color: #fffbf5;
+  background-color: #4b6587;
   border-radius: 5px;
   position: relative;
   display: flex;
@@ -346,7 +342,7 @@ br {
 }
 
 .notice-post-botton a:hover {
-  color: #FFFBF5;
+  color: #fffbf5;
 }
 
 /* ------------------お知らせ詳細---------------- */
@@ -378,7 +374,6 @@ br {
   text-decoration: underline;
 }
 
-
 /* ------------- Albumページ ------------- */
 .album {
   text-align: center;
@@ -389,12 +384,10 @@ br {
   cursor: not-allowed;
 }
 
-
-
 /* ----------------- PAGE TOP ----------------- */
 
 #page-top a {
-  background: #C8C6C6;
+  background: #c8c6c6;
   color: #000;
   text-align: center;
   display: block;
@@ -410,7 +403,6 @@ br {
   /* background: #666; */
   cursor: pointer;
 }
-
 
 .footer {
   color: #808080;
@@ -467,7 +459,7 @@ br {
 }
 
 .info p {
-  padding-bottom: 1.5em
+  padding-bottom: 1.5em;
 }
 
 .info label {
@@ -503,7 +495,7 @@ br {
   left: 0;
   height: 22px;
   width: 22px;
-  border: solid 1.5px #CCC;
+  border: solid 1.5px #ccc;
   border-radius: 50%;
   box-sizing: border-box;
 }
@@ -512,7 +504,7 @@ br {
 .radio-mark:after {
   content: "";
   position: absolute;
-  background: #4B6587;
+  background: #4b6587;
   border-radius: 50%;
   top: 2px;
   bottom: 2px;
@@ -522,10 +514,9 @@ br {
 }
 
 /* 選択時に重ねた円の透明を解除 */
-.radio-block input:checked+.radio-mark:after {
+.radio-block input:checked + .radio-mark:after {
   opacity: 1;
 }
-
 
 /* ------------------------- その他 --------------------------- */
 .preparation-icon {
@@ -538,36 +529,27 @@ br {
 
 /* ------------------------- プロジェクト案 --------------------------- */
 
-
 .design-proposal h2 {
   font-size: 18px;
   font-weight: 600;
-  color: #4B6587;
+  color: #4b6587;
 }
 
-.highlighter{
-	/* background:linear-gradient(transparent 70%, rgb(151, 234, 255) 60%); */
-}
-
-.go-back-top{
+.go-back-top {
   /* text-decoration: underline; */
-  background:linear-gradient(transparent 70%, rgb(151, 234, 255) 60%);
+  background: linear-gradient(transparent 70%, rgb(151, 234, 255) 60%);
 }
 
-.go-back-top:hover{
+.go-back-top:hover {
   color: #000;
-  background:linear-gradient(transparent 70%, rgb(163, 187, 255) 60%);
+  background: linear-gradient(transparent 70%, rgb(163, 187, 255) 60%);
 }
 
-
-.loding{
-  background-color: #FFFBF5;
+.loding {
+  background-color: #fffbf5;
 }
 
-
-
-
-.post-date{
+.post-date {
   height: 2.3em;
   width: 8em;
   padding: 0 6px;
@@ -581,7 +563,7 @@ br {
 
 .post-date:focus {
   outline: 0;
-  box-shadow: 0 0 0 1.5px #4B6587 inset;
+  box-shadow: 0 0 0 1.5px #4b6587 inset;
 }
 
 .post-form {
@@ -598,7 +580,7 @@ br {
 
 .post-form:focus {
   outline: 0;
-  box-shadow: 0 0 0 1.5px #4B6587 inset;
+  box-shadow: 0 0 0 1.5px #4b6587 inset;
 }
 
 .post-textarea {
@@ -617,7 +599,7 @@ br {
 
 .post-textarea:focus {
   outline: 0;
-  box-shadow: 0 0 0 1.5px #4B6587 inset;
+  box-shadow: 0 0 0 1.5px #4b6587 inset;
 }
 
 .post-button {
@@ -626,12 +608,12 @@ br {
   padding: 7px 8px;
   border: none;
   border-radius: 4px;
-  background-color: #4B6587;
+  background-color: #4b6587;
   color: #fff;
   font-weight: bold;
   appearance: none;
   -webkit-appearance: none;
-  -moz-appearance: none;  
+  -moz-appearance: none;
   cursor: pointer;
   border: 2px solid transparent;
 }
