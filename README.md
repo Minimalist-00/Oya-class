@@ -21,6 +21,22 @@ It may take a few minutes to load the database.
 2. Go to the path you cloned and run `> npm install`.
 3. Run `> npm start`
 
+## 🔧 Technology Stack
+#### Frontend
+[![My Skills](https://skillicons.dev/icons?i=html,js,react,nodejs)](https://skillicons.dev)
+
+#### Backend
+[![My Skills](https://skillicons.dev/icons?i=azure)](https://skillicons.dev)
+
+#### design
+[![My Skills](https://skillicons.dev/icons?i=css,bootstrap,materialui)](https://skillicons.dev)
+
+
+
+#### Other
+[![My Skills](https://skillicons.dev/icons?i=vscode,github)](https://skillicons.dev)
+
+
 ## 🔓 License
 
 Copyright (c) 2023, Minimalist00
